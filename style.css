@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap");
+:root {
+  --bg-page: hsl(233, 47%, 7%);
+  --bg-card: hsl(244, 38%, 16%);
+  --text-second-color: hsla(0, 0%, 100%, 0.75);
+  --stats-text-second-color: hsla(0, 0%, 100%, 0.6);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.no-style-list, .card ul {
+  list-style-type: none;
+}
+
+.no-style-link, footer a:link {
+  text-decoration: none;
+}
+
+body {
+  background-color: var(--bg-page);
+  font-family: "Inter", sans-serif;
+}
+
+.container {
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 1020px;
+  margin: 200px auto;
+  background-color: var(--bg-card);
+  overflow: hidden;
+}
+
+.card {
+  color: #fff;
+  margin-left: 72px;
+  margin-right: 72px;
+  padding: 70px 0px;
+}
+.card span {
+  color: hsl(277, 64%, 61%);
+}
+.card h1 {
+  font-size: 34px;
+  font-weight: 700;
+  margin-bottom: 32px;
+}
+.card > p {
+  color: var(--text-second-color);
+  line-height: 1.5;
+  margin-bottom: 68px;
+  font-size: 14px;
+}
+.card ul {
+  display: flex;
+  gap: 48px;
+}
+.card ul li {
+  font-weight: 700;
+  font-size: 26px;
+}
+.card ul li p + p {
+  color: var(--stats-text-second-color);
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin-top: 8px;
+  text-transform: uppercase;
+}
+
+.img-component {
+  margin-left: 25px;
+  position: relative;
+}
+.img-component img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.img-component::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  background-color: hsla(277, 64%, 61%, 0.5);
+}
+
+footer {
+  color: #fff;
+  text-align: center;
+}
+footer a {
+  color: hsl(277, 64%, 61%);
+}
+footer a:hover {
+  color: hsl(277, 58%, 75%);
+}
+
+
+
+/*# sourceMappingURL=style.css.map */
