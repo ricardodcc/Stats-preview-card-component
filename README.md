@@ -19,8 +19,8 @@ This is a solution to the [Order summary component](https://www.frontendmentor.i
 
 ### Links
 
-- Solution URL: (https://www.frontendmentor.io/solutions/responsive-ntf-card-design-to-you-start-publish-your-nfts-P6--16hv7E)
-- Live Site URL: (https://ricardodcc.github.io/Order-summary-component/)
+- Solution URL: (https://www.frontendmentor.io/solutions/responsive-component-using-sass-html5-css3-9wDQY-AZP2)
+- Live Site URL: (https://ricardodcc.github.io/Stats-preview-card-component/)
 
 ## My process
 -> I started this mini project by coding all the HTML needed and then adding SASS files.
